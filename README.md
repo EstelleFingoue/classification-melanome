@@ -63,5 +63,9 @@ scripts/KNN_Melanoma.py
 
 
 
+## Meilleure Courbe ROC
 
+La meilleure performance a été obtenue avec la fusion des modèles. Voici la courbe ROC correspondante :
+
+![Courbe ROC - Meilleure Fusion](results/resultats_fusions.png)
 
