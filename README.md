@@ -1,15 +1,15 @@
 # README - Classification d'images pour l'aide au diagnostic des cancers cutannés
 
-## 📌 Description du Projet
+## Description du Projet
 Ce dépôt contient les scripts développés dans le cadre d'un stage de recherche au **Laboratoire d’Informatique et Système (LIS), Marseille, France**. L'objectif principal est de concevoir et d'évaluer différents modèles de classification pour la détection automatique du mélanome à partir d'images médicales.
 
-## 🚀 Objectifs du Projet
+## Objectifs du Projet
 - Effectuer une **revue de littérature** sur les méthodes de classification du mélanome.
 - Développer des modèles de classification basés sur **KNN, SVM et CNN** (dont **EfficientNetB0**).
 - Expérimenter **différentes stratégies de fusion** de modèles (moyenne, pondérée, régression logistique).
 - Évaluer les performances des modèles avec des **courbes ROC et métriques de classification**.
 
-## 📂 Structure du Dépôt
+## Structure du Dépôt
 ```
 /README.md                       # Description du projet
 /data                            # Données d'entraînement et de test
@@ -26,7 +26,7 @@ Ce dépôt contient les scripts développés dans le cadre d'un stage de recherc
 /rapport_et_presentation         # Rapport de stage et powerpoint
 ```
 
-## 🛠️ Technologies Utilisées
+## Technologies Utilisées
 - **Langage** : Python
 - **Bibliothèques Principales** :
   - `TensorFlow / Keras` pour les réseaux de neurones convolutifs (CNN)
@@ -34,7 +34,7 @@ Ce dépôt contient les scripts développés dans le cadre d'un stage de recherc
   - `matplotlib` & `seaborn` pour les visualisations
   - `pandas` & `numpy` pour le traitement des données
 
-## 🔧 Installation et Prérequis
+## Installation et Prérequis
 ### 1️⃣ Cloner le dépôt
 ```bash
 git clone https://github.com/EstelleFingoue/classification-melanome.git
