@@ -37,8 +37,8 @@ Ce dépôt contient les scripts développés dans le cadre d'un stage de recherc
 ## 🔧 Installation et Prérequis
 ### 1️⃣ Cloner le dépôt
 ```bash
-git clone https://github.com/VOTRE-UTILISATEUR-GITHUB/NOM-DU-REPO.git
-cd NOM-DU-REPO
+git clone https://github.com/EstelleFingoue/classification-melanome.git
+cd classification-melanome
 ```
 
 ### 2️⃣ Installer les dépendances
@@ -49,23 +49,18 @@ source venv/bin/activate  # Sous Windows : venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 📊 Utilisation
-### 🏋️‍♂️ Entraîner un modèle
+##  Utilisation
+###  Entraîner un modèle
 - Exemple avec EfficientNetB0 :
-```bash
-python scripts/CNN_EFFNETB.py --train --data data/
-```
+scripts/CNN_EFFNETB.py 
 
-### 🔍 Tester un modèle
+###  Tester un modèle
 - Exemple avec KNN :
-```bash
-python scripts/KNN_Melanoma.py --test --data data/
-```
+scripts/KNN_Melanoma.py
 
-### 📈 Générer les courbes ROC
-```bash
-python scripts/resultats.py --input results/predictions.csv --output results/roc_curve.png
-```
+###  Générer les courbes ROC
+ scripts/resultats.py 
+
 
 
 
